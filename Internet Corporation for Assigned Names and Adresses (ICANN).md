@@ -1,0 +1,10 @@
+
+> The Internet Corporation for Assigned Names and Numbers (**ICANN**  EYE-kan) is an American multistakeholder group and nonprofit organization responsible for coordinating the maintenance and procedures of several databases related to the namespaces and numerical spaces of the Internet, ensuring the network's stable and secure operation. ICANN performs the actual technical maintenance work of the Central Internet Address pools and DNS root zone registries pursuant to the Internet Assigned Numbers Authority (IANA) function contract. The contract regarding the IANA stewardship functions between ICANN and the National Telecommunications and Information Administration (NTIA) of the United States Department of Commerce ended on October 1, 2016, formally transitioning the functions to the global multistakeholder community.Much of its work has concerned the Internet's global Domain Name System (DNS), including policy development for internationalization of the DNS, introduction of new generic top-level domains (TLDs), and the operation of root name servers.  The numbering facilities ICANN manages include the Internet Protocol address spaces for IPv4 and IPv6, and assignment of address blocks to regional Internet registries. ICANN also maintains registries of Internet Protocol identifiers.
+>
+> ICANN's primary principles of operation have been described as helping preserve the operational stability of the Internet; to promote competition; to achieve broad representation of the global Internet community; and to develop policies appropriate to its mission through bottom-up, consensus-based processes.ICANN's creation was announced publicly on September 17, 1998, and it formally came into being on September 30, 1998, incorporated in the U.S. state of California. Originally headquartered in Marina del Rey in the same building as the University of Southern California's Information Sciences Institute (ISI), its offices are now in the Playa Vista neighborhood of Los Angeles.
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/ICANN)
+> 
+
+En topp org som styr registering av adresser på internet. 
+

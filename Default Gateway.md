@@ -1,0 +1,1 @@
+Default gateway är närmaste router som kopplar ut mot internet.

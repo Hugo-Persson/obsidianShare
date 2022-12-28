@@ -1,0 +1,1 @@
+Överföring hastighet, bps

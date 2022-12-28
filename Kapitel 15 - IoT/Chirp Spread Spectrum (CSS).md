@@ -1,0 +1,3 @@
+> In digital communications, **Chirp Spread Spectrum** (CSS) is a spread spectrum technique that uses wideband linear frequency modulated chirp pulses to encode information.  A chirp is a sinusoidal signal whose frequency increases or decreases over time (often with a polynomial expression for the relationship between time and frequency).
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/Chirp%20spread%20spectrum)
