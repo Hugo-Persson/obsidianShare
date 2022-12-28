@@ -1,5 +1,5 @@
 OSI Modellen är en standard för hur protkollstacken ska se ut för nätverk, den består av 7 nivåer
-![Pasted image 20221113172940.png]({{< ref "Pasted image 20221113172940.png" >}})
+![[Pasted image 20221113172940.png]]
 
 ## Fysiska lagret - nivå 1
 
@@ -22,7 +22,7 @@ Detta lagret ansvarar för att applikationsdata kommer fram korrekt och i rätt 
 - Felhantering
 - Dela upp applikationsdata i segment
 - Addresseringfunktion - portar
-[ Läs mer]({{< ref "😀 6.3 Kommunikation över större nät#transportprotokoll-" >}})
+[[😀 6.3 Kommunikation över större nät#Transportprotokoll | Läs mer]]
 
 
 ## Sessionslagret - Nivå 5
@@ -34,4 +34,4 @@ Detta lager ansvarar för att ta data från applikationen och koda det till bin�
 ## Applikationslagret - OSI 7
 Detta lagret ser till att användaren kan komma åt nätet. Den innehåller gränsnitt och tjänster
 
-[Vägväljare på olika OSI nivåer]({{< ref "Vägväljare på olika OSI nivåer" >}})
+[[Vägväljare på olika OSI nivåer]]

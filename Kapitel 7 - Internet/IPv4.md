@@ -1,14 +1,14 @@
 # Adressering
 En IPv4 address består av 32 bitar där varje byte ofta sepereras med en punkt, t.ex 192.168.0.1.
-Varje IP-adress består av ett nät-id(net id) och ett värd-id (host id). Net id används av routrar för att skicka paketet till rätt nät. Varje router har en tabell över vilka nät net id som är kopplade till den. För att seperera net id från host id så finns det två tekniker, [Block routing - Klassindelad adressering]({{< ref "Block routing - Klassindelad adressering" >}}) och [CIDR - Klasslös adressering]({{< ref "CIDR - Klasslös adressering" >}}).
+Varje IP-adress består av ett nät-id(net id) och ett värd-id (host id). Net id används av routrar för att skicka paketet till rätt nät. Varje router har en tabell över vilka nät net id som är kopplade till den. För att seperera net id från host id så finns det två tekniker, [[Block routing - Klassindelad adressering]] och [[CIDR - Klasslös adressering]].
 
 
 
 
 
 ### Subnetting
-Om vi har ett stort nät som vi vill dela upp i mindre nät så kan vi använda oss av subnets, med subnets så kan ett stort nätverk bli uppdelade i så kallade subnets. Man gör detta genom att ta en del av host id biten och sätta den till net id. ![Pasted image 20221225134319.png]({{< ref "Pasted image 20221225134319.png" >}})
-![Pasted image 20221119131342.png]({{< ref "Pasted image 20221119131342.png" >}})
+Om vi har ett stort nät som vi vill dela upp i mindre nät så kan vi använda oss av subnets, med subnets så kan ett stort nätverk bli uppdelade i så kallade subnets. Man gör detta genom att ta en del av host id biten och sätta den till net id. ![[Pasted image 20221225134319.png]]
+![[Pasted image 20221119131342.png]]
 # IPv4 Header
 Ett IPv4-paket kallas datagram och består av en header och nyttlast(datan som ska föras över). Förklaring för följande saker är
 - Version (VER): Versionsnummer, 0100 för IPv4
@@ -18,11 +18,11 @@ Ett IPv4-paket kallas datagram och består av en header och nyttlast(datan som s
 - Identifikation: Detta innehåller ett sekvensnummer som kan identifiera paketet med source
 - Falggor: Detta används när headern fragmanteras
 - TTL: Time-to-live anger maximala antal routrar ett paket får skickas igenom.
-- Protokoll: Detta anger vilket protkoll som används, tillexempel [TCP - Transmission Control Protocol]({{< ref "TCP - Transmission Control Protocol" >}}), [UDP]({{< ref "UDP" >}}), ICMP och IGMP
+- Protokoll: Detta anger vilket protkoll som används, tillexempel [[TCP - Transmission Control Protocol]], [[UDP]], ICMP och IGMP
 - Header checksum: Detta är en kontrollsumma som används på hela headern men inte payload
 - Sändar-och-mottagaraddresser: IP-adresserna till sändaren och mottagaren av datagrammet
 - Eventuella tillval: IPv4 Tillåter ett antal tillval, t.ex nätövervakning. Detta behöver inte finnas 
-![IMG_0032.jpeg]({{< ref "IMG_0032.jpeg" >}})
+![[IMG_0032.jpeg]]
 
 | Värde | Protokoll |
 | ----- | --------- |

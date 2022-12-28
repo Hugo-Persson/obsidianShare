@@ -12,7 +12,7 @@ Det vi kallar Ethernet är ethernet 2
 - CRC är feldetekterings fält
 - 
 
-Most notably, an EtherType value of `0x0800` indicates that the frame contains an [IPv4]({{< ref "IPv4" >}}) datagram, `0x0806` indicates an [ARP-Address Resolution Protocol]({{< ref "ARP-Address Resolution Protocol" >}}) datagram, and `0x86DD` indicates an [IPv6]({{< ref "IPv6" >}}) datagram.
+Most notably, an EtherType value of `0x0800` indicates that the frame contains an [[IPv4]] datagram, `0x0806` indicates an [[ARP-Address Resolution Protocol]] datagram, and `0x86DD` indicates an [[IPv6]] datagram.
 
 Vanligt ethernet använder CDMA/CD som access metod
 

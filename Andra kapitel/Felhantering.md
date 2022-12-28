@@ -18,18 +18,18 @@ Om ACK för ett visst paket inte kommer inom en viss tid så antar sändaren att
 ### Stop-and-Wait ARQ
 
 Stop and wait går ut på att ett paket skickas först sen väntar bekräftelse på detta paket innan nästa paket skickas. När detta paket tagits emot så skickas en ACK och nästa paket kan skickas. I bilden kan vi se att Paket 0 skickas och mottagaren tar emot det och skickar ACK 1 vilket betyder att paket med sekvens nummer 0 har tagits emot. Då skickar sändaren paket 1, paket 1 går förlorat först så efter time-out så skickas det igen och får då ACK. Vi behöver bara en bits sekvensnummer i detta protocol.
-![Pasted image 20221118145545.png]({{< ref "Pasted image 20221118145545.png" >}})
+![[Pasted image 20221118145545.png]]
 ### Go-Back-N ARQ
 
 I detta protokol kan flera paket skickas samtidigt, och sändaren behöver inte vänta på att ett paket ska bli bekräftat innan den skickas nästa. Vi använder istället ett sändfönster (sliding window) för att hålla reda på vilka paket som ska skickas och vilka som är bekräftade. Paket till vänster om sändfönstret är bekräftade, paket inom sändfönstret får skickas och de höger om sändfönstret får inte skickas än.
-![Pasted image 20221118145600.png]({{< ref "Pasted image 20221118145600.png" >}})
+![[Pasted image 20221118145600.png]]
 
 Vi har en sändfönsterstolek vilket indikerar hur många paket som får finnas i sändfönstret på en gång vilket är hur många obekräftade paket som får skickas på en gång.
 
 Om alla paket kommer fram ser det ut så här
-![Pasted image 20221118145615.png]({{< ref "Pasted image 20221118145615.png" >}})
+![[Pasted image 20221118145615.png]]
 När ett sändaren får bekräftelse för ett paket så kan den öka sändfönstret med 1
-![Pasted image 20221118145631.png]({{< ref "Pasted image 20221118145631.png" >}})
+![[Pasted image 20221118145631.png]]
 ### Selective repeat ARQ
 
 Detta protocol är en variant av Go back N AQR

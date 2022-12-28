@@ -39,6 +39,6 @@
 	1. It will not changed
 19. Describe the classful addressing method.  
 	1. We have predefined routing blocks
-	2. ![Pasted image 20221116172116.png]({{< ref "Pasted image 20221116172116.png" >}})
+	2. ![[Pasted image 20221116172116.png]]
 20. Describe the classless addressing method
 	1. In classless we use netmasks to defined what part of IP adress is net and what part 

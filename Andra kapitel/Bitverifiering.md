@@ -2,7 +2,7 @@
 
 Först vill vi göra om våra bitar till ett polynom $d(x)$
 
-![Pasted image 20221118145503.png]({{< ref "Pasted image 20221118145503.png" >}})
+![[Pasted image 20221118145503.png]]
 
 Vi har ett generator polynom $g(x)$ som både sändare och mottagare har kommit fram till. Vi har också en grad k som både sändare och mottagare har kommit fram till. k är graden på g
 

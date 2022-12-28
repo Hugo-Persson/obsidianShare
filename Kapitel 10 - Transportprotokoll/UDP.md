@@ -18,4 +18,4 @@ Headern ser ut som på bilden nedan, förklar för varje del är:
 - Mottagarens portadress: Port till den applikation som ska få datagrammet
 - Längd: Totala längden på datagrammet, header+data i bytes
 - Kontrollsumma: En 16 bitars kontrollsumman som beräknas i UDP. Kontrollsumman beräknas på UDP data och header samt några headers i IP headern. Dessa är sändare och mottagar adresser samt protkollfältet. Anledningen varför UDP använder IP headers är för att detektera om det skickats till fel mottagare eller fel protkoll används.
-![IMG_0040.jpeg]({{< ref "IMG_0040.jpeg" >}})
+![[IMG_0040.jpeg]]

@@ -1,6 +1,6 @@
 Med VLAN kan en switch konfigureras så att några portar hör till ett VLAN medans andra ett annat VLAN. En dator kopplad till ett VLAN märker inte detta och för den är det som den är ansluten till ett LAN. Broadcast meddelande skickas endast inom ett VLAN. Fördelen med VLAN är att det är enkelt att konfigurera. Om en terminal ska byta VLAN så är det bara att konfigurera om switchen.
 
-![Pasted image 20221116082252.png]({{< ref "Pasted image 20221116082252.png" >}})
+![[Pasted image 20221116082252.png]]
 
 ### Tagged VLAN
 
@@ -11,4 +11,4 @@ I IEEE 802.1.q så görs detta med hjälp av TPID (Tag protocol identifier) och 
 -   PCP är ett tre bitar fält som används för prioritering av trafik.
 -   DEI är en bit som indikerar om ramen kan kastas om det är överbelastning på nätet
 -   VID är själva identifieringen aav vilket VLAN ramen tillhör, 0x000 används om ingen VLAN används. 0xFFF är reserverat vilket betyder att det kan vara upp till 4094 olika VLANs
-![Pasted image 20221116082302.png]({{< ref "Pasted image 20221116082302.png" >}})
+![[Pasted image 20221116082302.png]]

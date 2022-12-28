@@ -14,14 +14,14 @@ Alla Zigbee nätverk har en Coordinator och Zigbee enheter är antingen en route
 Zigbee har liknande användningsområden till Matter (Wiki). Zigbee är bäst jämfört med Thread vilket är ett nätverks protokoll som Matter använder sig av. Båda protokollen är meshnätverk med liknande egenskaper. 
 
 
-En av de största skillanden mellan Thread och Zigbee är att Thread använder sig av [IPv6]({{< ref "IPv6" >}}) vilket öppnar möjligheter för naturlig kommunikation med andra [IPv6]({{< ref "IPv6" >}}) nätverk så som WiFi. Zigbee däremot använder ett helt nytt protkoll (texas inst). 
+En av de största skillanden mellan Thread och Zigbee är att Thread använder sig av [[IPv6]] vilket öppnar möjligheter för naturlig kommunikation med andra [[IPv6]] nätverk så som WiFi. Zigbee däremot använder ett helt nytt protkoll (texas inst). 
 
 Matter har ingen single point av failure tillskillnad från Zigbee, läs mer om detta under teknisk information. 
 
 
 
 
-![Pasted image 20221126142439.png]({{< ref "Pasted image 20221126142439.png" >}})
+![[Pasted image 20221126142439.png]]
 ### Z-Wave
 Z-Wave skapades 1999 och har liknande egenskaper och användingsområden till Matted. Z-Wave använder sig av ett meshnätverkt likt Zigbee och Thread.  
 

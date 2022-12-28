@@ -1,3 +1,3 @@
 ## Klassindelad adressering (classful addressing)
-![Pasted image 20221116172116.png]({{< ref "Pasted image 20221116172116.png" >}})
-I klassindelad addressering så har vi fem klasser, A, B, C, D och E. Meningen var att olika typer av nät skulle ha olika block. Stora nät skulle använda A medans små skulle använda D. E skulle sparas för framtida bruk. Nackdelen med detta är att detta sättet inte är speciellt flexibelt, det är därför [CIDR - Klasslös adressering]({{< ref "CIDR - Klasslös adressering" >}}) används idag
+![[Pasted image 20221116172116.png]]
+I klassindelad addressering så har vi fem klasser, A, B, C, D och E. Meningen var att olika typer av nät skulle ha olika block. Stora nät skulle använda A medans små skulle använda D. E skulle sparas för framtida bruk. Nackdelen med detta är att detta sättet inte är speciellt flexibelt, det är därför [[CIDR - Klasslös adressering]] används idag
